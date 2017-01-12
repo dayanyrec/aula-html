@@ -47,12 +47,18 @@ Um documento HTML básico válido precisa seguir a seguinte estrutura:
 </html>
 ```
 
+A tag `body` tem como objetivo inserir elementos visuais na página. Alguns exemplos desses elementos são textos, imagens e tabelas.
+
+A tag `head` tem como objetivo inserir elementos de configuração para o navegador. Elementos que não façam parte da página em si como encoding e título.
+
 Dentre as muitas tags, vamos ver mais detalhes das referentes a título e lista.
 
 ##### Tags de título
 Para indicar um texto de título devemos usar as tags de _heading_.
 
 As tags de heading são tags de conteúdo e vão de `<h1>` a `<h6>`, seguindo a ordem de importância, sendo `<h1>` o título principal, o mais importante, e `<h6>` o título de menor importância.
+
+Essa ordem de importância se traduz em efeito visual na página, assim `<h1>` tem maior tamanho de fonte e `<h6>` tem o menor tamanho de fonte. Além da diferença visual, existe também a diferença semântica de cada tag que é ponto crucial para _os motores de busca_, _leitores de tela_.
 
 Exemplo:
 
